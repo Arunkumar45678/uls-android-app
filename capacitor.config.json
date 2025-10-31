@@ -1,0 +1,20 @@
+{
+  "appId": "com.testase.uls",
+  "appName": "ULS System",
+  "webDir": "www",
+  "server": {
+    "url": "https://testase.gt.tc/uls/",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#ffffff",
+      "androidSplashResourceName": "splash",
+      "showSpinner": true,
+      "spinnerColor": "#000000",
+      "splashFullScreen": true
+    }
+  }
+}
