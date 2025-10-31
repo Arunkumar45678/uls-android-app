@@ -1,0 +1,17 @@
+{
+  "name": "uls-system-app",
+  "version": "1.0.0",
+  "description": "Android app for ULS System",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx cap build android",
+    "sync": "npx cap sync"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.5.0",
+    "@capacitor/cli": "^5.5.0",
+    "@capacitor/core": "^5.5.0"
+  },
+  "author": "Testase",
+  "license": "MIT"
+}
